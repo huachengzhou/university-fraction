@@ -50,9 +50,11 @@ public class GeneratorMyBatisPlus {
         AutoGenerator mpg = new AutoGenerator();
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        String projectPath = System.getProperty("user.dir") + File.separator + "todoMybatisPlus";
+        String projectPath = System.getProperty("user.dir") ;
         gc.setOutputDir(projectPath + File.separator + "src" + File.separator + "main" + File.separator + "java");//设置代码生成路径
-        gc.setFileOverride(true);//是否覆盖以前文件
+
+        gc.setFileOverride(false);//是否覆盖以前文件
+
         gc.setSwagger2(false) ;
         gc.setOpen(false);//是否打开生成目录
         gc.setAuthor("zch");//设置项目作者名称
@@ -61,6 +63,7 @@ public class GeneratorMyBatisPlus {
         gc.setBaseColumnList(true);//生成基本ColumnList
         gc.setServiceName("%sService");//去掉服务默认前缀
         gc.setDateType(DateType.ONLY_DATE);//设置时间类型
+
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
@@ -91,24 +94,12 @@ public class GeneratorMyBatisPlus {
         strategyConfig.setRestControllerStyle(true);
         strategyConfig.setControllerMappingHyphenStyle(true);
 
-//        sc.setLogicDeleteFieldName("deleted");//设置逻辑删除
-
-        //设置自动填充配置
-//        TableFill gmt_create = new TableFill("create_time", FieldFill.INSERT);
-//        TableFill gmt_modified = new TableFill("update_time", FieldFill.INSERT_UPDATE);
-//        ArrayList<TableFill> tableFills=new ArrayList<>();
-//        tableFills.add(gmt_create);
-//        tableFills.add(gmt_modified);
-//        sc.setTableFillList(tableFills);
-
-        //乐观锁
-//        sc.setVersionFieldName("version");
         strategyConfig.setRestControllerStyle(true);//驼峰命名
 
         strategyConfig.setTablePrefix("tb_");// 设置表名前缀
 
         //tb_user_task_todo 表名，多个英文逗号分割
-        strategyConfig.setInclude("tb_school_fraction_info");
+        strategyConfig.setInclude("tb_university_info");
         //启用常量字段
         strategyConfig.setEntityColumnConstant(true);
 

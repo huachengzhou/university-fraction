@@ -17,7 +17,29 @@ CREATE TABLE `tb_school_fraction_info` (
   UNIQUE KEY `index` (`uuid`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 ROW_FORMAT=DYNAMIC COMMENT='大学分数';
 
-
+CREATE TABLE `tb_university_info` (
+                                    `id` int(11) NOT NULL AUTO_INCREMENT,
+                                    `uuid` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT '0',
+                                    `name` varchar(255) DEFAULT NULL COMMENT '学校名称',
+                                    `type` varchar(255) DEFAULT NULL COMMENT '院校类型',
+                                    `tag` varchar(255) DEFAULT NULL COMMENT 'tag',
+                                    `subordinate` varchar(255) DEFAULT NULL COMMENT '院校隶属',
+                                    `location` varchar(255) DEFAULT NULL COMMENT '所在地区',
+                                    `official_website` varchar(255) DEFAULT NULL COMMENT '官网',
+                                    `special_admission` varchar(255) DEFAULT NULL COMMENT '特殊招生',
+                                    `ranking` varchar(255) DEFAULT NULL COMMENT '学校排名',
+                                    `star_rating` varchar(255) DEFAULT NULL COMMENT '星级',
+                                    `total_score` varchar(255) DEFAULT NULL COMMENT '总分',
+                                    `scientific_research_score` varchar(255) DEFAULT NULL COMMENT '科学研究(分数)',
+                                    `personnel_training_score` varchar(255) DEFAULT NULL COMMENT '人才培养(分数)',
+                                    `comprehensive_reputation` varchar(255) DEFAULT NULL COMMENT '综合声誉(分数)',
+                                    `educational_level` varchar(255) DEFAULT NULL COMMENT '办学层次',
+                                    `remark` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '说明',
+                                    `gmt_created` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+                                    `gmt_modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后更新时间，记录变化后会自动更新时间戳',
+                                    PRIMARY KEY (`id`) USING BTREE,
+                                    UNIQUE KEY `index` (`uuid`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='大学信息';
 
 CREATE TABLE `tb_base_data_dic` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -39,3 +61,6 @@ CREATE TABLE `tb_base_data_dic` (
   UNIQUE KEY `index` (`uuid`) USING BTREE,
   KEY `index_field` (`field_name`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3 ROW_FORMAT=DYNAMIC COMMENT='数据字典';
+
+
+
