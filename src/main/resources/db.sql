@@ -3,6 +3,8 @@ CREATE TABLE `tb_school_fraction_info` (
   `uuid` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT '0',
   `year` varchar(255) DEFAULT NULL COMMENT '年份(不要用数字)',
   `fraction` varchar(255) DEFAULT NULL COMMENT '分数',
+  `max_score` varchar(255) DEFAULT NULL COMMENT '录取最高分数',
+  `min_score` varchar(255) DEFAULT NULL COMMENT '录取最低分数',
   `province` varchar(255) DEFAULT NULL COMMENT '省',
   `type` varchar(255) DEFAULT NULL COMMENT '分类',
   `primary_classification` varchar(255) DEFAULT NULL COMMENT '一级分类',
@@ -16,7 +18,7 @@ CREATE TABLE `tb_school_fraction_info` (
   `gmt_modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后更新时间，记录变化后会自动更新时间戳',
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE KEY `index` (`uuid`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 ROW_FORMAT=DYNAMIC COMMENT='大学分数';
+) ENGINE=InnoDB AUTO_INCREMENT=1444 DEFAULT CHARSET=utf8mb3 ROW_FORMAT=DYNAMIC COMMENT='大学分数';
 
 CREATE TABLE `tb_university_info` (
                                     `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -63,5 +65,15 @@ CREATE TABLE `tb_base_data_dic` (
   KEY `index_field` (`field_name`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3 ROW_FORMAT=DYNAMIC COMMENT='数据字典';
 
-
+CREATE TABLE `tb_base_area` (
+                              `id` int NOT NULL AUTO_INCREMENT COMMENT 'id',
+                              `code` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '编码',
+                              `pid_code` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT '0' COMMENT '父级编码',
+                              `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '名称',
+                              `creator` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '创建人',
+                              `gmt_created` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+                              `gmt_modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后更新时间，记录变化后会自动更新时间戳',
+                              PRIMARY KEY (`id`) USING BTREE,
+                              UNIQUE KEY `index_par_key` (`code`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb3 ROW_FORMAT=DYNAMIC COMMENT='省市区表';
 
