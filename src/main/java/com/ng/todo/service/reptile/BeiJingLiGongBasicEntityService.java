@@ -119,52 +119,6 @@ public class BeiJingLiGongBasicEntityService extends BasicEntityAbstract {
         return schoolFractionInfoService.list(queryWrapper);
     }
 
-    public void simpleRun() {
-        List<String> klmcList = Lists.newArrayList("理工", "文史", "艺术类");
-        List<String> zsnfList = Lists.newArrayList("2018", "2019", "2020", "2021", "2022");
-        List<SchoolFractionInfo> infoList = new ArrayList<>();
-        MyHttpParams myHttpParams = new MyHttpParams(ReptileTypeEnum.HttpReqest, "https://admission.bit.edu.cn/f/ajax_lnfs", METHOD);
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("ssmc", "内蒙古");
-        paramMap.put("zsnf", "2022");
-        paramMap.put("klmc", "理工");
-        myHttpParams.setParamMap(paramMap);
-
-        InfoData infoData = MyHttpUtils.getHtml(myHttpParams);
-        Object value = infoData.getValue();
-        Map resultMap = (Map) value;
-        Map data = (Map) resultMap.get("data");
-        List<Map> sszygradeList = (List<Map>) data.get(SSZYGRADE_LIST);
-        if (CollUtil.isNotEmpty(sszygradeList)) {
-            Iterator<Map> iterator = sszygradeList.iterator();
-            while (iterator.hasNext()) {
-                Map map = iterator.next();
-                SchoolFractionInfo infoObj = new SchoolFractionInfo();
-                infoObj.setUuid(LangUtils.shortUuid());
-                FinalField finalField = new FinalField().invoke();
-                String ssmc = finalField.getSsmc();
-                String minScore = finalField.getMinScore();
-                String klmc = finalField.getKlmc();
-                String zymc = finalField.getZymc();
-                String zslx = finalField.getZslx();
-
-                infoObj.setSchool(typeEnum().getName());
-                infoObj.setProvince(getObject(map.get(ssmc)));
-                infoObj.setFraction(getObject(map.get(minScore)));
-                infoObj.setMinScore(getObject(map.get(minScore)));
-                infoObj.setType(getObject(map.get(klmc)));
-                infoObj.setSpeciality(getObject(map.get(zymc)));
-                infoObj.setMethod(getObject(map.get(zslx)));
-                infoObj.setGmtCreated(new Date());
-                infoObj.setGmtModified(new Date());
-
-                infoList.add(infoObj);
-            }
-        }
-        if (CollUtil.isNotEmpty(infoList)) {
-            batchInsertSchoolFractionInfo(infoList);
-        }
-    }
 
     private String getObject(Object obj) {
         if (obj == null) {
