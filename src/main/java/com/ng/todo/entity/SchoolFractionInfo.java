@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author zch
- * @since 2023-06-07
+ * @since 2023-06-08
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -39,6 +39,16 @@ public class SchoolFractionInfo implements Serializable {
      * 分数
      */
     private String fraction;
+
+    /**
+     * 录取最高分数
+     */
+    private String maxScore;
+
+    /**
+     * 录取最低分数
+     */
+    private String minScore;
 
     /**
      * 省
@@ -76,6 +86,11 @@ public class SchoolFractionInfo implements Serializable {
     private String school;
 
     /**
+     * 枚举分类
+     */
+    private String typeEnum;
+
+    /**
      * 说明
      */
     private String remark;
@@ -99,6 +114,10 @@ public class SchoolFractionInfo implements Serializable {
 
     public static final String FRACTION = "fraction";
 
+    public static final String MAX_SCORE = "max_score";
+
+    public static final String MIN_SCORE = "min_score";
+
     public static final String PROVINCE = "province";
 
     public static final String TYPE = "type";
@@ -112,6 +131,8 @@ public class SchoolFractionInfo implements Serializable {
     public static final String SOURCE_TEXT = "source_text";
 
     public static final String SCHOOL = "school";
+
+    public static final String TYPE_ENUM = "type_enum";
 
     public static final String REMARK = "remark";
 

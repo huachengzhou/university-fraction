@@ -33,7 +33,7 @@ public class MyHttpUtils {
         switch (myHttpParams.getTypeEnum()) {
             case WebClient: {
                 // 实例化Web客户端
-                WebClient webClient = new WebClient(BrowserVersion.FIREFOX_52);
+                WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED);
                 //考虑买一个 或者找一个代理ip  国外的
 //                WebClient webClient = new WebClient(BrowserVersion.FIREFOX_52,"202.110.67.141",9091);
 //                webClient.getOptions().setCssEnabled(true);

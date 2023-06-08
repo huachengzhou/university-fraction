@@ -12,7 +12,7 @@ public class Demo2 {
 
 
     public static final String URL = "https://mdaxue.911cha.com/s_sichuan.html";
-    public static final ReptileTypeEnum TYPE_ENUM = ReptileTypeEnum.WebClient;
+    public static final ReptileTypeEnum TYPE_ENUM = ReptileTypeEnum.Jsoup;
     public static final RequestMethod METHOD = RequestMethod.GET;
 
     @Test

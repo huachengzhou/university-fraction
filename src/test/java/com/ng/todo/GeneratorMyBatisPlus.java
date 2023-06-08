@@ -53,7 +53,7 @@ public class GeneratorMyBatisPlus {
         String projectPath = System.getProperty("user.dir") ;
         gc.setOutputDir(projectPath + File.separator + "src" + File.separator + "main" + File.separator + "java");//设置代码生成路径
 
-        gc.setFileOverride(false);//是否覆盖以前文件
+        gc.setFileOverride(true);//是否覆盖以前文件
 
         gc.setSwagger2(false) ;
         gc.setOpen(false);//是否打开生成目录
@@ -99,7 +99,7 @@ public class GeneratorMyBatisPlus {
         strategyConfig.setTablePrefix("tb_");// 设置表名前缀
 
         //tb_user_task_todo 表名，多个英文逗号分割
-        strategyConfig.setInclude("tb_university_info");
+        strategyConfig.setInclude("tb_base_area");
         //启用常量字段
         strategyConfig.setEntityColumnConstant(true);
 

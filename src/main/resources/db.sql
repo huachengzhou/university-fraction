@@ -10,6 +10,7 @@ CREATE TABLE `tb_school_fraction_info` (
   `speciality` varchar(255) DEFAULT NULL COMMENT '专业(工科/理工科/文科/国家专项)',
   `source_text` longtext COMMENT '数据json或者html',
   `school` varchar(255) DEFAULT NULL COMMENT '学校名称',
+  `type_enum` varchar(100) DEFAULT NULL COMMENT '枚举分类',
   `remark` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '说明',
   `gmt_created` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `gmt_modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后更新时间，记录变化后会自动更新时间戳',

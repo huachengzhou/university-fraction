@@ -1,0 +1,213 @@
+package com.ng.todo.service.reptile;
+
+import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.StrUtil;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.google.common.collect.Lists;
+import com.ng.todo.common.enums.ReptileTypeEnum;
+import com.ng.todo.common.enums.SchoolTypeEnum;
+import com.ng.todo.common.utils.LangUtils;
+import com.ng.todo.common.utils.MyHttpUtils;
+import com.ng.todo.entity.SchoolFractionInfo;
+import com.ng.todo.pojo.dto.InfoData;
+import com.ng.todo.pojo.dto.MyHttpParams;
+import com.ng.todo.service.BaseAreaService;
+import com.ng.todo.service.BasicEntityAbstract;
+import com.ng.todo.service.SchoolFractionInfoService;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+/**
+ * 北京理工大学  爬虫
+ */
+@Service
+public class BeiJingLiGongBasicEntityService extends BasicEntityAbstract {
+    public static final RequestMethod METHOD = RequestMethod.POST;
+    public static final String SSZYGRADE_LIST = "sszygradeList";
+
+    @Override
+    public boolean clear() {
+        SchoolFractionInfoService schoolFractionInfoService = getSchoolFractionInfoService();
+        QueryWrapper<SchoolFractionInfo> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString());
+        return schoolFractionInfoService.remove(queryWrapper);
+    }
+
+    @Override
+    public SchoolTypeEnum typeEnum() {
+        return SchoolTypeEnum.ADMISSION_BIT_EDU_CN;
+    }
+
+    @Override
+    public void invoke() throws Exception {
+        BaseAreaService baseAreaService = getBaseAreaService();
+        List<String> provinceNameList = baseAreaService.getProvinceNameList();
+        if (CollUtil.isEmpty(provinceNameList)) {
+            throw new Exception("省一级没有数据");
+        }
+        provinceNameList = provinceNameList.stream().map(s -> {
+            String all = StrUtil.removeAll(s, "省");
+            all = StrUtil.removeAll(all, "市");
+            return all;
+        }).collect(Collectors.toList());
+        List<String> klmcList = Lists.newArrayList("理工", "文史", "艺术类");
+        List<String> zsnfList = Lists.newArrayList("2018", "2019", "2020", "2021", "2022");
+        List<SchoolFractionInfo> infoList = new ArrayList<>();
+        MyHttpParams myHttpParams = new MyHttpParams(ReptileTypeEnum.HttpReqest, "https://admission.bit.edu.cn/f/ajax_lnfs", METHOD);
+        Map<String, Object> paramMap = new HashMap<>();
+        for (String area:provinceNameList){
+            for (String klmc:klmcList){
+                for (String zsnf:zsnfList){
+                    paramMap.put("ssmc", area);
+                    paramMap.put("zsnf", zsnf);
+                    paramMap.put("klmc", klmc);
+                    myHttpParams.setParamMap(paramMap);
+                    InfoData infoData = null;
+                    try {
+                        infoData = MyHttpUtils.getHtml(myHttpParams);
+                    } catch (Exception e) {
+                        paramMap.clear();
+                        continue;
+                    }
+                    Object value = infoData.getValue();
+                    Map resultMap = (Map) value;
+                    Map data = (Map) resultMap.get("data");
+                    List<Map> sszygradeList = (List<Map>) data.get(SSZYGRADE_LIST);
+                    if (CollUtil.isNotEmpty(sszygradeList)) {
+                        Iterator<Map> iterator = sszygradeList.iterator();
+                        while (iterator.hasNext()) {
+                            Map map = iterator.next();
+                            SchoolFractionInfo infoObj = new SchoolFractionInfo();
+                            infoObj.setUuid(LangUtils.shortUuid());
+                            FinalField finalField = new FinalField().invoke();
+                            String ssmc = finalField.getSsmc();
+                            String minScore = finalField.getMinScore();
+
+                            infoObj.setTypeEnum(typeEnum().toString()) ;
+                            infoObj.setYear(zsnf) ;
+                            infoObj.setSchool(typeEnum().getName());
+                            infoObj.setProvince(getObject(map.get(ssmc)));
+                            infoObj.setFraction(getObject(map.get(minScore)));
+                            infoObj.setMinScore(getObject(map.get(minScore)));
+                            infoObj.setType(getObject(map.get(finalField.getKlmc())));
+                            infoObj.setSpeciality(getObject(map.get(finalField.getZymc())));
+                            infoObj.setMethod(getObject(map.get(finalField.getZslx())));
+                            infoObj.setGmtCreated(new Date());
+                            infoObj.setGmtModified(new Date());
+                            infoList.add(infoObj);
+                        }
+                    }
+                    paramMap.clear();
+                    Thread.sleep(10);
+                }
+            }
+            Thread.sleep(100);
+        }
+        if (CollUtil.isNotEmpty(infoList)) {
+            batchInsertSchoolFractionInfo(infoList);
+        }
+    }
+
+    @Override
+    public List<SchoolFractionInfo> findSchoolFractionInfoList() {
+        SchoolFractionInfoService schoolFractionInfoService = getSchoolFractionInfoService();
+        QueryWrapper<SchoolFractionInfo> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString());
+        return schoolFractionInfoService.list(queryWrapper);
+    }
+
+    public void simpleRun() {
+        List<String> klmcList = Lists.newArrayList("理工", "文史", "艺术类");
+        List<String> zsnfList = Lists.newArrayList("2018", "2019", "2020", "2021", "2022");
+        List<SchoolFractionInfo> infoList = new ArrayList<>();
+        MyHttpParams myHttpParams = new MyHttpParams(ReptileTypeEnum.HttpReqest, "https://admission.bit.edu.cn/f/ajax_lnfs", METHOD);
+        Map<String, Object> paramMap = new HashMap<>();
+        paramMap.put("ssmc", "内蒙古");
+        paramMap.put("zsnf", "2022");
+        paramMap.put("klmc", "理工");
+        myHttpParams.setParamMap(paramMap);
+
+        InfoData infoData = MyHttpUtils.getHtml(myHttpParams);
+        Object value = infoData.getValue();
+        Map resultMap = (Map) value;
+        Map data = (Map) resultMap.get("data");
+        List<Map> sszygradeList = (List<Map>) data.get(SSZYGRADE_LIST);
+        if (CollUtil.isNotEmpty(sszygradeList)) {
+            Iterator<Map> iterator = sszygradeList.iterator();
+            while (iterator.hasNext()) {
+                Map map = iterator.next();
+                SchoolFractionInfo infoObj = new SchoolFractionInfo();
+                infoObj.setUuid(LangUtils.shortUuid());
+                FinalField finalField = new FinalField().invoke();
+                String ssmc = finalField.getSsmc();
+                String minScore = finalField.getMinScore();
+                String klmc = finalField.getKlmc();
+                String zymc = finalField.getZymc();
+                String zslx = finalField.getZslx();
+
+                infoObj.setSchool(typeEnum().getName());
+                infoObj.setProvince(getObject(map.get(ssmc)));
+                infoObj.setFraction(getObject(map.get(minScore)));
+                infoObj.setMinScore(getObject(map.get(minScore)));
+                infoObj.setType(getObject(map.get(klmc)));
+                infoObj.setSpeciality(getObject(map.get(zymc)));
+                infoObj.setMethod(getObject(map.get(zslx)));
+                infoObj.setGmtCreated(new Date());
+                infoObj.setGmtModified(new Date());
+
+                infoList.add(infoObj);
+            }
+        }
+        if (CollUtil.isNotEmpty(infoList)) {
+            batchInsertSchoolFractionInfo(infoList);
+        }
+    }
+
+    private String getObject(Object obj) {
+        if (obj == null) {
+            return null;
+        }
+        return String.valueOf(obj);
+    }
+
+    private class FinalField {
+        private String ssmc;
+        private String minScore;
+        private String klmc;
+        private String zymc;
+        private String zslx;
+
+        public String getSsmc() {
+            return ssmc;
+        }
+
+        public String getMinScore() {
+            return minScore;
+        }
+
+        public String getKlmc() {
+            return klmc;
+        }
+
+        public String getZymc() {
+            return zymc;
+        }
+
+        public String getZslx() {
+            return zslx;
+        }
+
+        public FinalField invoke() {
+            ssmc = "ssmc";
+            minScore = "minScore";
+            klmc = "klmc";
+            zymc = "zymc";
+            zslx = "zslx";
+            return this;
+        }
+    }
+}
+

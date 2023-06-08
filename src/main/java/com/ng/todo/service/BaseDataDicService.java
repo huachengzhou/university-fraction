@@ -12,5 +12,4 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2023-06-07
  */
 public interface BaseDataDicService extends IService<BaseDataDic> {
-
 }
