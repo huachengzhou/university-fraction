@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ng.todo.mapper.CommonSchoolFractionInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ng.todo.entity.CommonSchoolFractionInfo">
+        <id column="id" property="id" />
+        <result column="uuid" property="uuid" />
+        <result column="year" property="year" />
+        <result column="fraction" property="fraction" />
+        <result column="max_score" property="maxScore" />
+        <result column="min_score" property="minScore" />
+        <result column="province" property="province" />
+        <result column="type" property="type" />
+        <result column="number" property="number" />
+        <result column="primary_classification" property="primaryClassification" />
+        <result column="method" property="method" />
+        <result column="speciality" property="speciality" />
+        <result column="source_text" property="sourceText" />
+        <result column="school" property="school" />
+        <result column="type_enum" property="typeEnum" />
+        <result column="remark" property="remark" />
+        <result column="gmt_created" property="gmtCreated" />
+        <result column="gmt_modified" property="gmtModified" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, uuid, year, fraction, max_score, min_score, province, type, number, primary_classification, method, speciality, source_text, school, type_enum, remark, gmt_created, gmt_modified
+    </sql>
+
+</mapper>
