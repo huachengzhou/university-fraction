@@ -38,6 +38,7 @@ public class CommonSchoolFractionInfoServiceImpl extends ServiceImpl<CommonSchoo
      */
     public void invoke() {
         Map<Integer, Integer> integerMap = new HashMap<>();
+        //年份 , 最大页码
         integerMap.put(2013, 785);
         integerMap.put(2014, 947);
         integerMap.put(2015, 22);
@@ -138,6 +139,7 @@ public class CommonSchoolFractionInfoServiceImpl extends ServiceImpl<CommonSchoo
                         }
                         case "short": {
                             fractionInfo.setMinScore(span.text());
+                            fractionInfo.setFraction(span.text());
                             break;
                         }
                         default: {
@@ -150,7 +152,18 @@ public class CommonSchoolFractionInfoServiceImpl extends ServiceImpl<CommonSchoo
             }
         }
         if (CollUtil.isNotEmpty(fractionInfoList)) {
-            saveBatch(fractionInfoList);
+            try {
+                saveBatch(fractionInfoList);
+            } catch (Exception e) {
+                logger.error(e.getMessage());
+                for (CommonSchoolFractionInfo fractionInfo:fractionInfoList){
+                    try {
+                        save(fractionInfo) ;
+                    } catch (Exception ex) {
+                        logger.error(ex.getMessage());
+                    }
+                }
+            }
         }
     }
 }
