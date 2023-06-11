@@ -106,6 +106,7 @@ public class CommonSchoolFractionInfoServiceImpl extends ServiceImpl<CommonSchoo
                 CommonSchoolFractionInfo fractionInfo = new CommonSchoolFractionInfo();
                 fractionInfo.setGmtCreated(new Date());
                 fractionInfo.setGmtModified(new Date());
+                fractionInfo.setMethod("统招");
                 fractionInfo.setUuid(LangUtils.shortUuid());
                 for (Element span : spanList) {
                     String aClass = span.attr("class");
