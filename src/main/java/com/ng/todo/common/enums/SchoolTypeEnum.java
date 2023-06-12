@@ -6,7 +6,7 @@ package com.ng.todo.common.enums;
  **/
 public enum SchoolTypeEnum {
 
-    ADMISSION_BIT_EDU_CN("北京理工大学"),
+    ADMISSION_BIT_EDU_CN("北京理工大学"),COLLEGE_EDU_CN("http://college.gaokao.com/schpoint/"),
    ;
 
     SchoolTypeEnum(String name) {

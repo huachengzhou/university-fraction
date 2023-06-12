@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author zch
- * @since 2023-06-08
+ * @since 2023-06-12
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -86,6 +86,11 @@ public class SchoolFractionInfo implements Serializable {
     private String school;
 
     /**
+     * 批次
+     */
+    private String batch;
+
+    /**
      * 枚举分类
      */
     private String typeEnum;
@@ -131,6 +136,8 @@ public class SchoolFractionInfo implements Serializable {
     public static final String SOURCE_TEXT = "source_text";
 
     public static final String SCHOOL = "school";
+
+    public static final String BATCH = "batch";
 
     public static final String TYPE_ENUM = "type_enum";
 

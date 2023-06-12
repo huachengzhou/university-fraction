@@ -17,6 +17,7 @@
         <result column="speciality" property="speciality" />
         <result column="source_text" property="sourceText" />
         <result column="school" property="school" />
+        <result column="batch" property="batch" />
         <result column="type_enum" property="typeEnum" />
         <result column="remark" property="remark" />
         <result column="gmt_created" property="gmtCreated" />
@@ -25,7 +26,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, uuid, year, fraction, max_score, min_score, province, type, primary_classification, method, speciality, source_text, school, type_enum, remark, gmt_created, gmt_modified
+        id, uuid, year, fraction, max_score, min_score, province, type, primary_classification, method, speciality, source_text, school, batch, type_enum, remark, gmt_created, gmt_modified
     </sql>
 
 </mapper>

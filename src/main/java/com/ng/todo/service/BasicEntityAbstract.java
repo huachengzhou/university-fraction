@@ -1,5 +1,6 @@
 package com.ng.todo.service;
 
+import cn.hutool.core.util.StrUtil;
 import com.ng.todo.common.enums.SchoolTypeEnum;
 import com.ng.todo.entity.SchoolFractionInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,7 +49,43 @@ public abstract class BasicEntityAbstract {
     /**
      * 执行爬虫
      */
-    public abstract void invoke()throws Exception;
+    public abstract void invoke() throws Exception;
+
+    /**
+     * 校验数据是否完整
+     *
+     * @return
+     */
+    public boolean check(SchoolFractionInfo entity) {
+        if (entity == null) {
+            return false;
+        }
+        if (StrUtil.isBlank(entity.getSchool())) {
+            return false;
+        }
+        if (StrUtil.isBlank(entity.getYear())) {
+            return false;
+        }
+        if (StrUtil.isBlank(entity.getFraction())) {
+            return false;
+        }
+        if (StrUtil.isBlank(entity.getProvince())) {
+            return false;
+        }
+        if (StrUtil.isBlank(entity.getSpeciality())) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * 校验数据是否重复
+     *
+     * @return
+     */
+    public boolean distinct(SchoolFractionInfo entity) {
+        return false;
+    }
 
 
     /**

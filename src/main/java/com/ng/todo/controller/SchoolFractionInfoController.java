@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author zch
- * @since 2023-06-08
+ * @since 2023-06-12
  */
 @RestController
 @RequestMapping("/school-fraction-info")

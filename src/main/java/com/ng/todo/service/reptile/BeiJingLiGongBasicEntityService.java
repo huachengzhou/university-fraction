@@ -105,6 +105,7 @@ public class BeiJingLiGongBasicEntityService extends BasicEntityAbstract {
 
                             infoObj.setTypeEnum(typeEnum().toString());
                             infoObj.setYear(zsnf);
+                            infoObj.setBatch("本科批") ;
                             infoObj.setSchool(typeEnum().getName());
                             infoObj.setProvince(getObject(map.get(ssmc)));
                             infoObj.setFraction(getObject(map.get(minScore)));
