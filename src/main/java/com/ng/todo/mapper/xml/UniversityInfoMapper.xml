@@ -20,6 +20,8 @@
         <result column="personnel_training_score" property="personnelTrainingScore" />
         <result column="comprehensive_reputation" property="comprehensiveReputation" />
         <result column="educational_level" property="educationalLevel" />
+        <result column="type_enum" property="typeEnum" />
+        <result column="s_id" property="sId" />
         <result column="remark" property="remark" />
         <result column="gmt_created" property="gmtCreated" />
         <result column="gmt_modified" property="gmtModified" />
@@ -27,7 +29,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, uuid, name, type, tag, subordinate, location, official_website, special_admission, ranking, star_rating, total_score, scientific_research_score, personnel_training_score, comprehensive_reputation, educational_level, remark, gmt_created, gmt_modified
+        id, uuid, name, type, tag, subordinate, location, official_website, special_admission, ranking, star_rating, total_score, scientific_research_score, personnel_training_score, comprehensive_reputation, educational_level, type_enum, s_id, remark, gmt_created, gmt_modified
     </sql>
 
 </mapper>

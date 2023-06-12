@@ -26,6 +26,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * 高考网 专业分数线
  * http://college.gaokao.com/schpoint/  爬虫
  */
 @Service

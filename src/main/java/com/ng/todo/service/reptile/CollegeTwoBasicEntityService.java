@@ -22,6 +22,8 @@ import java.util.*;
 
 /**
  * http://college.gaokao.com/schpoint/  爬虫
+ *
+ * 高考网 地区批次线
  */
 @Service
 public class CollegeTwoBasicEntityService extends BasicEntityAbstract {

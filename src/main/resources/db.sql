@@ -38,6 +38,8 @@ CREATE TABLE `tb_university_info` (
                                     `personnel_training_score` varchar(255) DEFAULT NULL COMMENT '人才培养(分数)',
                                     `comprehensive_reputation` varchar(255) DEFAULT NULL COMMENT '综合声誉(分数)',
                                     `educational_level` varchar(255) DEFAULT NULL COMMENT '办学层次',
+                                    `type_enum` varchar(255) DEFAULT NULL COMMENT '枚举类型',
+                                    `s_id` varchar(155) DEFAULT NULL COMMENT '学校id',
                                     `remark` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '说明',
                                     `gmt_created` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
                                     `gmt_modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后更新时间，记录变化后会自动更新时间戳',

@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author zch
- * @since 2023-06-08
+ * @since 2023-06-12
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -101,6 +101,16 @@ public class UniversityInfo implements Serializable {
     private String educationalLevel;
 
     /**
+     * 枚举类型
+     */
+    private String typeEnum;
+
+    /**
+     * 学校id
+     */
+    private String sId;
+
+    /**
      * 说明
      */
     private String remark;
@@ -147,6 +157,10 @@ public class UniversityInfo implements Serializable {
     public static final String COMPREHENSIVE_REPUTATION = "comprehensive_reputation";
 
     public static final String EDUCATIONAL_LEVEL = "educational_level";
+
+    public static final String TYPE_ENUM = "type_enum";
+
+    public static final String S_ID = "s_id";
 
     public static final String REMARK = "remark";
 
