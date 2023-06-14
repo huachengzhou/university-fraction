@@ -5,6 +5,7 @@ CREATE TABLE `tb_school_fraction_info` (
   `fraction` varchar(255) DEFAULT NULL COMMENT '分数',
   `max_score` varchar(255) DEFAULT NULL COMMENT '录取最高分数',
   `min_score` varchar(255) DEFAULT NULL COMMENT '录取最低分数',
+  `enrollment` varchar(255) DEFAULT NULL COMMENT '录取人数',
   `province` varchar(255) DEFAULT NULL COMMENT '省',
   `type` varchar(255) DEFAULT NULL COMMENT '分类',
   `primary_classification` varchar(255) DEFAULT NULL COMMENT '一级分类',

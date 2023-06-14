@@ -22,7 +22,7 @@ public class CollegeThreeBasicEntityServiceTest {
     @Test
     public void run(){
         try {
-//            basicEntityService.clear();
+            basicEntityService.clear();
             basicEntityService.invoke();
         } catch (Exception e) {
             e.printStackTrace();

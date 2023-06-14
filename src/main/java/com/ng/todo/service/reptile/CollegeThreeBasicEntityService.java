@@ -31,6 +31,7 @@ import java.util.*;
 @Service
 public class CollegeThreeBasicEntityService extends BasicEntityAbstract {
 
+    public static final String REMARK = "高校分数线";
     private final String baseUrl = "https://college.gaokao.com/school/tinfo";
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
@@ -41,7 +42,7 @@ public class CollegeThreeBasicEntityService extends BasicEntityAbstract {
     public boolean clear() {
         SchoolFractionInfoService schoolFractionInfoService = getSchoolFractionInfoService();
         QueryWrapper<SchoolFractionInfo> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString());
+        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString()).eq(SchoolFractionInfo.REMARK,REMARK);
         return schoolFractionInfoService.remove(queryWrapper);
     }
 
@@ -160,7 +161,7 @@ public class CollegeThreeBasicEntityService extends BasicEntityAbstract {
                             break;
                         }
                         case 4: {
-                            schoolFractionInfo.setFraction(element.text());
+                            schoolFractionInfo.setEnrollment(element.text());
                             break;
                         }
                         case 5: {
@@ -172,7 +173,7 @@ public class CollegeThreeBasicEntityService extends BasicEntityAbstract {
                         }
                     }
                 }
-                schoolFractionInfo.setRemark("高校分数线");
+                schoolFractionInfo.setRemark(REMARK);
                 schoolFractionInfo.setMethod("统招");
                 schoolFractionInfo.setGmtCreated(new Date());
                 schoolFractionInfo.setGmtModified(new Date());
@@ -197,7 +198,7 @@ public class CollegeThreeBasicEntityService extends BasicEntityAbstract {
     public List<SchoolFractionInfo> findSchoolFractionInfoList() {
         SchoolFractionInfoService schoolFractionInfoService = getSchoolFractionInfoService();
         QueryWrapper<SchoolFractionInfo> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString());
+        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString()).eq(SchoolFractionInfo.REMARK,REMARK);
         return schoolFractionInfoService.list(queryWrapper);
     }
 

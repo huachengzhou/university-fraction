@@ -99,7 +99,7 @@ public class GeneratorMyBatisPlus {
         strategyConfig.setTablePrefix("tb_");// 设置表名前缀
 
         //tb_user_task_todo 表名，多个英文逗号分割
-        strategyConfig.setInclude("tb_university_info");
+        strategyConfig.setInclude("tb_school_fraction_info");
         //启用常量字段
         strategyConfig.setEntityColumnConstant(true);
 

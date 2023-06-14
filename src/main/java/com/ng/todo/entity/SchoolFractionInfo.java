@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author zch
- * @since 2023-06-12
+ * @since 2023-06-14
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -49,6 +49,11 @@ public class SchoolFractionInfo implements Serializable {
      * 录取最低分数
      */
     private String minScore;
+
+    /**
+     * 录取人数
+     */
+    private String enrollment;
 
     /**
      * 省
@@ -122,6 +127,8 @@ public class SchoolFractionInfo implements Serializable {
     public static final String MAX_SCORE = "max_score";
 
     public static final String MIN_SCORE = "min_score";
+
+    public static final String ENROLLMENT = "enrollment";
 
     public static final String PROVINCE = "province";
 

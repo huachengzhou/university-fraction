@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author zch
- * @since 2023-06-12
+ * @since 2023-06-14
  */
 public interface SchoolFractionInfoService extends IService<SchoolFractionInfo> {
 

@@ -76,7 +76,7 @@ public class Demo8 {
                             break;
                         }
                         case 4: {
-                            schoolFractionInfo.setFraction(element.text());
+                            schoolFractionInfo.setEnrollment(element.text());
                             break;
                         }
                         case 5: {
