@@ -64,7 +64,11 @@ public class UniversityBasicEntityService {
             } catch (InterruptedException e) {
                 logger.error(e.getMessage());
             }
-            invokeWrite(body) ;
+            try {
+                invokeWrite(body) ;
+            } catch (Exception e) {
+                logger.error(e.getMessage());
+            }
         }
     }
 
@@ -78,11 +82,11 @@ public class UniversityBasicEntityService {
             return;
         }
         Element wrapper = body.getElementById("wrapper");
-        Elements scoresList = wrapper.select("scores_List");
+        Elements scoresList = wrapper.select(".scores_List");
         if (CollUtil.isEmpty(scoresList)) {
             return;
         }
-        List<UniversityInfo> infoList = new ArrayList<>() ;
+        List<UniversityInfo> infoList = new ArrayList<>();
         for (Element scores : scoresList) {
             Elements dlElements = scores.select("dl");
             if (CollUtil.isEmpty(dlElements)) {
@@ -93,19 +97,65 @@ public class UniversityBasicEntityService {
                     continue;
                 }
                 Element dlElement = dlElements.get(i);
-
-                UniversityInfo universityInfo = new UniversityInfo() ;
-
+                UniversityInfo universityInfo = new UniversityInfo();
+                Element element = dlElement.selectFirst("dt");
+                if (element != null) {
+                    Element strong = element.selectFirst("strong");
+                    universityInfo.setName(strong.text());
+                    Element aElement = element.selectFirst("a");
+                    if (aElement != null) {
+                        universityInfo.setOfficialWebsite(aElement.attr("href"));
+                        universityInfo.setSId(LangUtils.getNumber(aElement.attr("href")));
+                    }
+                }
                 universityInfo.setGmtCreated(new Date());
                 universityInfo.setGmtModified(new Date());
                 universityInfo.setTypeEnum(typeEnum().toString()) ;
                 universityInfo.setUuid(LangUtils.shortUuid());
+                Element selectFirst = dlElement.selectFirst("dd");
+                if (selectFirst != null) {
+                    Element ul = selectFirst.selectFirst("ul");
+                    if (ul != null) {
+                        Elements liList = ul.select("li");
+                        for (int j = 0; j < liList.size(); j++) {
+                            Element li = liList.get(j);
+                            switch (j) {
+                                case 0: {
+                                    universityInfo.setLocation(li.text());
+                                    break;
+                                }
+                                case 1: {
+                                    universityInfo.setTag(li.text());
+                                    break;
+                                }
+                                case 2: {
+                                    universityInfo.setType(li.text());
+                                    break;
+                                }
+                                case 3: {
+                                    universityInfo.setSubordinate(li.text());
+                                    break;
+                                }
+                                case 4: {
+                                    universityInfo.setEducationalLevel(li.text());
+                                    break;
+                                }
+                                case 5: {
+                                    universityInfo.setOfficialWebsite(li.text());
+                                    break;
+                                }
+                                default: {
+                                    break;
+                                }
+                            }
+                        }
 
+                    }
+                }
                 logger.info(JSONUtil.toJsonStr(universityInfo));
                 infoList.add(universityInfo);
             }
         }
-
         if (CollUtil.isNotEmpty(infoList)){
             universityInfoService.saveBatch(infoList) ;
         }

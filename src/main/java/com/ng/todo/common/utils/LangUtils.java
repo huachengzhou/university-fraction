@@ -4,8 +4,12 @@ import com.google.common.base.Function;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Ordering;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 实现描述：通用工具类
@@ -137,6 +141,24 @@ public abstract class LangUtils {
         return result;
     }
 
-
+    /**
+     * 提取数字
+     *
+     * @param text
+     * @return
+     */
+    public static String getNumber(String text) {
+        if (StringUtils.isEmpty(text)) {
+            return "0";
+        }
+        if (NumberUtils.isNumber(text)) {
+            return text;
+        }
+        String regEx = "[^0-9]";
+        Pattern p = Pattern.compile(regEx);
+        Matcher m = p.matcher(text);
+        String s = m.replaceAll("").trim();
+        return StringUtils.isNotBlank(s) ? s : "0";
+    }
 
 }
