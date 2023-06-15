@@ -28,6 +28,7 @@ import java.util.*;
 @Service
 public class CollegeTwoBasicEntityService extends BasicEntityAbstract {
 
+    public static final String REMARK = "地区批次线";
     private final String baseUrl = "https://college.gaokao.com/areapoint/y";
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
@@ -42,7 +43,7 @@ public class CollegeTwoBasicEntityService extends BasicEntityAbstract {
 
     @Override
     public SchoolTypeEnum typeEnum() {
-        return SchoolTypeEnum.COLLEGE_EDU_CN;
+        return SchoolTypeEnum.COLLEGE_EDU_CN_LOCATION;
     }
 
     /**
@@ -160,7 +161,7 @@ public class CollegeTwoBasicEntityService extends BasicEntityAbstract {
                     schoolFractionInfo.setBatch(text);
                 }
                 schoolFractionInfo.setSchool("地区批次线(无具体学校)");
-                schoolFractionInfo.setRemark("地区批次线");
+                schoolFractionInfo.setRemark(REMARK);
                 schoolFractionInfo.setMethod("统招");
                 schoolFractionInfo.setGmtCreated(new Date());
                 schoolFractionInfo.setGmtModified(new Date());

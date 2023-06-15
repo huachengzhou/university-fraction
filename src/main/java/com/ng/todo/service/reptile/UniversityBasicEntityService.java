@@ -1,6 +1,7 @@
 package com.ng.todo.service.reptile;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.ng.todo.common.enums.SchoolTypeEnum;
@@ -28,7 +29,7 @@ public class UniversityBasicEntityService {
     @Autowired
     private UniversityInfoService  universityInfoService;
 
-    private final String baseUrl = "https://college.gaokao.com/schpoint/p";
+    private final String baseUrl = "https://college.gaokao.com/schlist/p";
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -46,7 +47,7 @@ public class UniversityBasicEntityService {
      * @throws Exception
      */
     public void invoke() throws Exception {
-        for (int i = 1; i <= 50; i++) {
+        for (int i = 1; i <= 107; i++) {
             String url = baseUrl + i+"/";
             org.jsoup.nodes.Document document = null;
             try {
@@ -121,7 +122,11 @@ public class UniversityBasicEntityService {
                             Element li = liList.get(j);
                             switch (j) {
                                 case 0: {
-                                    universityInfo.setLocation(li.text());
+                                    String toDefault = StrUtil.emptyIfNull(li.text());
+                                    toDefault =  StrUtil.removeAll(toDefault,"高校所在地") ;
+                                    toDefault =  StrUtil.removeAll(toDefault,":") ;
+                                    toDefault =  StrUtil.removeAll(toDefault,"：") ;
+                                    universityInfo.setLocation(toDefault);
                                     break;
                                 }
                                 case 1: {

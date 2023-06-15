@@ -32,6 +32,7 @@ import java.util.stream.Collectors;
 @Service
 public class CollegeBasicEntityService extends BasicEntityAbstract {
 
+    public static final String REMARK = "专业分数线";
     private final String baseUrl = "https://college.gaokao.com/spepoint/y";
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
@@ -46,7 +47,7 @@ public class CollegeBasicEntityService extends BasicEntityAbstract {
 
     @Override
     public SchoolTypeEnum typeEnum() {
-        return SchoolTypeEnum.COLLEGE_EDU_CN;
+        return SchoolTypeEnum.COLLEGE_EDU_CN_SPECIALITY;
     }
 
     /**
@@ -146,7 +147,7 @@ public class CollegeBasicEntityService extends BasicEntityAbstract {
                 schoolFractionInfo.setYear(children.get(6).text()) ;
                 schoolFractionInfo.setBatch(children.get(7).text()) ;
 
-                schoolFractionInfo.setRemark("专业分数线") ;
+                schoolFractionInfo.setRemark(REMARK) ;
                 schoolFractionInfo.setMethod("统招") ;
                 schoolFractionInfo.setGmtCreated(new Date());
                 schoolFractionInfo.setGmtModified(new Date());

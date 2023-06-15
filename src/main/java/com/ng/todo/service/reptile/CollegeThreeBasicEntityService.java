@@ -42,13 +42,13 @@ public class CollegeThreeBasicEntityService extends BasicEntityAbstract {
     public boolean clear() {
         SchoolFractionInfoService schoolFractionInfoService = getSchoolFractionInfoService();
         QueryWrapper<SchoolFractionInfo> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString()).eq(SchoolFractionInfo.REMARK,REMARK);
+        queryWrapper.eq(SchoolFractionInfo.TYPE_ENUM, typeEnum().toString());
         return schoolFractionInfoService.remove(queryWrapper);
     }
 
     @Override
     public SchoolTypeEnum typeEnum() {
-        return SchoolTypeEnum.COLLEGE_EDU_CN;
+        return SchoolTypeEnum.COLLEGE_EDU_CN_INFO;
     }
 
     /**

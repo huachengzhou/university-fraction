@@ -2,6 +2,7 @@ package com.ng.todo.reptile;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.io.FileUtil;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
 import com.ng.todo.common.enums.ReptileTypeEnum;
 import com.ng.todo.common.utils.LangUtils;
@@ -71,7 +72,11 @@ public class Demo6 {
                             Element li = liList.get(j);
                             switch (j) {
                                 case 0: {
-                                    universityInfo.setLocation(li.text());
+                                    String toDefault = StrUtil.emptyIfNull(li.text());
+                                    toDefault =  StrUtil.removeAll(toDefault,"高校所在地") ;
+                                    toDefault =  StrUtil.removeAll(toDefault,":") ;
+                                    toDefault =  StrUtil.removeAll(toDefault,"：") ;
+                                    universityInfo.setLocation(toDefault);
                                     break;
                                 }
                                 case 1: {
