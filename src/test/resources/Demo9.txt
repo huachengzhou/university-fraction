@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>新疆政法学院2023年普通本专科招生章程_新疆高校_招生考试网【GK114.COM】</title>
+  <meta name="keywords" content="新疆,政法学院,2023年,普通,本专科,招生章程,">
+  <meta name="description" content="第一章 总 则 第一条为贯彻落实教育部施行阳光招生的各项规定和要求，保证我校普通本专科招生工作顺利进行，切实维护学校和考生的合法权益，根据《中华人民共和国教育法》《中">
+  <link rel="stylesheet" href="http://www.gk114.com/skin/style.css" type="text/css">
+  <script type="text/javascript" src="http://www.gk114.com/skin/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.gk114.com/skin/js/gotop.js"></script>
+ </head>
+ <body>
+  <div class="top">
+   <div class="warp"><span>网站客服电话：010-51664315　　　　　　　　　　　　　　<a href="" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.gk114.com');">设为首页</a> - <a href="javascript:window.external.AddFavorite('http://www.gk114.com','招生考试网【GK114.COM】')">加入收藏</a></span>
+    <script language="JavaScript" type="text/JavaScript">
+			var n = new Date();
+			var y = n.getFullYear();
+			var m = ((m=n.getMonth()+1)<10?'0'+m:m);
+			var d = ((d=n.getDate())<10?'0'+d:d);
+			var h = ((h=n.getHours())<10?'0'+h:h);
+			var i = ((i=n.getMinutes())<10?'0'+i:i);
+			var w = new Array('日','一','二','三','四','五','六');
+			document.write(y+"年"+m+"月"+d+"日"+' '+h+':'+i+' '+'星期'+w[n.getDay()]);
+		</script>
+   </div>
+  </div>
+  <div class="head">
+   <table width="1190" height="70" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+     <tr>
+      <td height="70">
+       <div class="logo">
+        <a href="http://www.gk114.com"><img src="http://www.gk114.com/skin/images/logo.jpg" alt="招生考试网【GK114.COM】"></a>
+       </div></td>
+      <td align="right" valign="middle">
+       <div>
+        <div align="right">
+         <table width="920" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td align="left" valign="middle">
+             <div>
+              <div align="right">
+               <a href="http://bkzs.zuel.edu.cn/main.htm" target="_blank"><img src="http://www.gk114.com/UploadPic/index/zncjzfdx.jpg" width="450" height="50" border="0"></a>
+              </div>
+             </div></td>
+            <td height="50" align="right" valign="middle"><a href="http://www.gk114.com/news/27393.html" target="_blank"><img src="http://www.gk114.com/UploadPic/index/2022syl.jpg" width="450" height="50" border="0"></a></td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div></td>
+     </tr>
+    </tbody>
+   </table>
+   <table width="1190" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+     <tr bgcolor="#FFFFFF">
+      <td width="100%" height="25" colspan="2">
+       <div class="nav">
+        <ul>
+         <li><a href="http://www.gk114.com/">首页</a></li>
+         <li><a href="http://www.gk114.com/a/gaokaozixun/" target="_blank">高考资讯</a></li>
+         <li><a href="http://www.gk114.com/a/zhengce/" target="_blank">高考政策</a></li>
+         <li><a href="http://www.gk114.com/a/gxzs/" target="_blank">高考招生</a></li>
+         <li><a href="http://www.gk114.com/a/gxzs/zszc/" target="_blank">招生章程</a></li>
+         <li><a href="http://www.gk114.com/a/gaoxiaoxinwen/benkeyuanxiaoxinwen/" target="_blank">本科院校资讯</a></li>
+         <li><a href="http://www.gk114.com/a/gaoxiaoxinwen/zkyx/" target="_blank">专科院校资讯</a></li>
+         <li><a href="http://www.gk114.com/a/ddzs/" target="_blank">单独招生</a></li>
+         <li><a href="http://www.ysyxedu.cn/" target="_blank">艺术招生</a></li>
+         <li><a href="https://gaokao.chsi.com.cn/zyck/" target="_blank">志愿填报</a></li>
+         <li><a href="https://gaokao.chsi.com.cn/zixun.do" target="_blank">在线咨询</a></li>
+         <li><a href="https://gaokao.chsi.com.cn/zyk/zybk/" target="_blank">专业查询</a></li>
+        </ul>
+       </div></td>
+     </tr>
+     <tr bgcolor="#FFFFFF">
+      <td height="25" colspan="2">
+       <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#E8E8E8">
+        <tbody>
+         <tr bgcolor="#EEEEEE">
+          <td width="7%"><img src="http://www.gk114.com/skin/images/gsfz.gif" width="88" height="34" align="absmiddle"></td>
+          <td width="93%">
+           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+             <tr>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/bjgx/" target="_blank">京</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/tjgx/" target="_blank">津</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/hebgx/" target="_blank">冀</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/sxgx/" target="_blank">晋</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/nmggx/" target="_blank">蒙</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/lngx/" target="_blank">辽</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/jlgx/" target="_blank">吉</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/hljgx/" target="_blank">黑</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/shgx/" target="_blank">沪</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/zjgx/" target="_blank">浙</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/jxgx/" target="_blank">赣</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/fjgx/" target="_blank">闽</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/cqgx/" target="_blank">渝</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/scgx/" target="_blank">川</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/gzgx/" target="_blank">黔</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/yngx/" target="_blank">滇</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/xzgx/" target="_blank">藏</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/gdgx/" target="_blank">粤</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/gxgx/" target="_blank">桂</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/haingx/" target="_blank">琼</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/jsgx/" target="_blank">苏</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/ahgx/" target="_blank">皖</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/sdgx/" target="_blank">鲁</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/hungx/" target="_blank">湘</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/hubgx/" target="_blank">鄂</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/hengx/" target="_blank">豫</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/shanxgx/" target="_blank">陕</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/gsgx/" target="_blank">甘</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/nxgx/" target="_blank">宁</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/qhgx/" target="_blank">青</a> |
+               </div></td>
+              <td>
+               <div align="center">
+                <a href="http://www.gk114.com/daohang/html/xjgx/" target="_blank">新</a> |
+               </div></td>
+             </tr>
+            </tbody>
+           </table></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+    </tbody>
+   </table>
+   <table width="1190" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+     <tr>
+      <td></td>
+     </tr>
+    </tbody>
+   </table>
+   <div class="weizhi">
+    您的当前位置：<a href="http://www.gk114.com/">主页</a> &gt; <a href="http://www.gk114.com/a/gxzs/">高校招生</a> &gt; <a href="http://www.gk114.com/a/gxzs/zszc/">招生章程</a> &gt; <a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a> &gt; 正文
+   </div>
+   <div class="main1">
+    <div class="left_1">
+     <div class="g_con">
+      <h1>新疆政法学院2023年普通本专科招生章程</h1>
+      <div class="info"><span>来源：未知</span> <span>编辑：admin</span> <span>时间：2023-06-12</span>
+       <div class="share">
+        <div class="bdsharebuttonbox">
+         <a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        </div>
+        <script>
+					window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+					</script>
+       </div>
+      </div>
+      <div class="con">
+       <div>
+        第一章 总 则
+       </div>
+       <div>
+        第一条为贯彻落实教育部施行“阳光招生”的各项规定和要求，保证我校普通本专科招生工作顺利进行，切实维护学校和考生的合法权益，根据《中华人民共和国教育法》《中华人民共和国高等教育法》等相关法律和教育部有关规定，结合我校实际情况，特制定本章程。
+       </div>
+       <div>
+        第二条学校名称：新疆政法学院 国标代码：13628
+       </div>
+       <div>
+        第三条学校地址：新疆维吾尔自治区图木舒克市前海东街52号
+       </div>
+       <div>
+        邮编：843900
+       </div>
+       <div>
+        第四条 新疆政法学院是一所由新疆生产建设兵团举办并管理的公办普通本科高等学校。学校定位于应用型高等学校，主要培养区域经济社会发展所需要的高素质应用型、技术技能型人才，更好地为区域经济社会发展服务。
+       </div>
+       <div>
+        第五条 学生修满规定课程且考核合格后，毕业时颁发新疆政法学院毕业证书；本科生符合《新疆政法学院学士学位授予实施细则》学位授予条件者，颁发新疆政法学院学士学位证书。
+       </div>
+       <div>
+        第六条 新疆政法学院招生录取坚持“公平、公正、公开”的原则，按照各省（自治区、直辖市）招生考试院确定的录取分数线，德、智、体、美、劳全面衡量，择优录取。
+       </div>
+       <div>
+        第七条 新疆政法学院招生接受纪检监察部门、考生、家长、媒体以及社会各界的监督。
+       </div>
+       <div>
+        第二章 招生组织机构
+       </div>
+       <div>
+        第八条 新疆政法学院成立由校领导和校内有关部门负责人组成的招生工作领导小组。招生工作领导小组是学校普通本专科招生工作的领导与决策机构，全面领导学校普通本专科招生工作，负责制定招生政策，审定招生章程、录取规则、分省分专业分科类招生计划、特殊类型招生录取结果等，并对普通本专科招生工作重大事项做出决策。
+       </div>
+       <div>
+        第九条 学校招生办公室是招生工作的常设机构，在校党委的领导下、在学校招生工作领导小组的指导下，具体负责普通本专科招生的日常工作。
+       </div>
+       <div>
+        第十条 新疆政法学院设立招生工作监督小组，监督办公室设在纪委（监察专员）办公室，对招生工作实施全程监督。
+       </div>
+       <div>
+        第三章　招生计划与录取原则
+       </div>
+       <div>
+        第十一条 学校根据优化生源结构、促进区域协调发展的原则，根据本校人才培养、办学条件等实际情况，统筹考虑各省（自治区、直辖市）生源数、生源质量、重点支持政策及历年计划编制和执行情况等因素，确定各省招生计划，最终以报教育部审批后由各省级招生主管部门向社会公布的计划为准。
+       </div>
+       <div>
+        第十二条本科计划中，学校预留少量计划，用于调节各地统考上线生源的不平衡。预留计划不超过当年本科招生计划总数的1%。预留计划使用时，坚持质量优先、公开透明的原则，主要投放到报考我校优质生源集中的省（自治区、直辖市）。
+       </div>
+       <div>
+        第十三条 学校执行教育部规定的“学校负责、招办监督”的录取原则，由各省（自治区、直辖市）招生主管部门统一组织录取。
+       </div>
+       <div>
+        第十四条 学校根据在各省（自治区、直辖市）的招生计划和生源情况确定调档比例，顺序志愿投档的批次为100%，平行志愿投档的批次为100%。
+       </div>
+       <div>
+        第十五条 学校原则上认可各省（自治区、直辖市）招生部门的有关政策性加分，按照加分后的投档成绩进行录取和专业安排。
+       </div>
+       <div>
+        第十六条综合改革试点省（自治区、直辖市）的考生按当地省级考试管理部门公布的选考科目及要求执行。考生选考科目须符合我校招生专业在该省（自治区、直辖市）公布的相关要求。
+       </div>
+       <div>
+        我校英语专业只招收英语语种的考生。
+       </div>
+       <div>
+        我校非外语专业的公共外语为英语，非英语语种考生需慎重报考。
+       </div>
+       <div>
+        第十七条 报考我校普通本科批次考生以分数优先为原则，即按高分到低分排序，按照考生填报的专业志愿顺序依次录取。
+       </div>
+       <div>
+        报考我校专科批次考生的录取根据专业要求及考生专业志愿优先的原则，由高分到低分排序，择优录取。
+       </div>
+       <div>
+        同分进档且同排位考生优先录取相关科目成绩高的考生：文史类（历史类）考生依次比较语文、文综、数学等单科成绩；理工类（物理类）考生依次比较数学、理综、语文等单科成绩；对不分文理的高考综合改革省份考生依次比较语文、数学、外语等单科成绩。
+       </div>
+       <div>
+        考生所填报专业录取额满且志愿无法满足时，若服从专业调剂，则可在符合条件且录取额未满的其他专业进行随机调剂；若不服从专业调剂，则予以退档处理。
+       </div>
+       <div>
+        第十八条 我校艺术类专业成绩采用各省（自治区、直辖市）专业统考成绩。高考文化课成绩和专业课省统考成绩均达到考生所在省份划定的相应批次录取控制分数线，按各省文件规定的投档原则和投档比例予以投档。
+       </div>
+       <div>
+        美术学专业录取时按文化课成绩和艺术类统考成绩各占50%的比例计算综合成绩（综合成绩=当年普通高考文化课投档成绩×50%+艺术类统考成绩×50%），按照综合成绩从高到低择优录取，综合成绩相同时，先按专业统考成绩从高分到低分排序，若仍相同，再依次按语文、数学、英语（均不含附加分）的文化单科成绩从高到低逐一进行排序，直到分出差异为止。
+       </div>
+       <div>
+        第十九条 报考新疆政法学院的考生身体健康状况以教育部、原卫生部和中国残疾人联合会制定的《普通高等学校招生体检工作指导意见》及有关补充规定为基本依据，考生须据实上报健康状况，若隐瞒病情病史，将按照《普通高等学校学生管理规定》中有关退学与休学的规定执行。
+       </div>
+       <div>
+        第二十条计划变更需经我校招生工作领导小组审核同意后，报请教育主管部门审核批准后执行。
+       </div>
+       <div>
+        第四章 新生入学及收费标准
+       </div>
+       <div>
+        第二十一条 新生应按照规定时间持《录取通知书》办理入学手续，学生入学后，学院在三个月内按照国家招生规定对其进行复查，复查内容主要包括：
+       </div>
+       <div>
+        （一）录取手续及程序等是否符合国家招生规定；
+       </div>
+       <div>
+        （二）获得录取资格是否真实，合乎相关规定；
+       </div>
+       <div>
+        （三）本人及身份证件与录取通知书、考生档案等是否一致；
+       </div>
+       <div>
+        （四）身心健康状况是否符合报考专业或者专业类别体检要求，能否保证在校正常学习、生活。复查合格者予以注册，取得学籍。凡复查不合格的新生，将按照有关招生规定进行处理，直至取消入学资格。复查中发现学生存在弄虚作假、徇私舞弊等情形的，确定为复查不合格，将取消学籍；情节严重的，学校将移交有关部门调查处理。
+       </div>
+       <div>
+        第二十二条 新生应在规定时间内完成入学报到，因故不能按期入学者，应当向学校书面请假，未书面请假或请假逾期者，除因不可抗力等正当事由外，视为放弃入学资格。因病不适宜入学者，可申请保留入学资格一年，保留入学资格不具有学籍，保留入学资格期满前应向学校申请入学，由学校指定的二级甲等以上医院出具诊断证明，复核合格后办理入学手续。复核不合格的，取消入学资格。
+       </div>
+       <div>
+        第二十三条 学费和住宿费标准：
+       </div>
+       <div>
+        根据国家有关规定，学生应当缴纳学费、住宿费、教材费用等，学校按新疆维吾尔自治区物价部门核定的标准收费。
+       </div>
+       <div>
+        本科：文史类专业学费3100元/每生每学年；外语类专业学费3800元/每生每学年；理工类专业学费3500元/每生每学年；艺术类专业学费6000元/每生每学年；财经类专业学费3200元/每生每学年。
+       </div>
+       <div>
+        专科：文史类专业学费2900元/每生每学年；理工类专业学费3300元/每生每学年。
+       </div>
+       <div>
+        住宿费：1000元/每生每学年（4人间），800元/每生每学年（6人间）。
+       </div>
+       <div>
+        如果国家调整年度收费标准，我校将按照新规定收取。
+       </div>
+       <div>
+        第二十四条 为切实保障家庭经济困难学生顺利入学，我校建立新生入学“绿色通道”，并设有各类奖助学金，提供勤工助学岗位等，资助家庭经济困难学生顺利完成学业。
+       </div>
+       <div>
+        第五章 附　则
+       </div>
+       <div>
+        第二十五条 新疆政法学院招生办公室负责具体招生工作，我校不委托任何中介机构或个人参与或介入学校招生工作，对假借新疆政法学院名义进行非法招生宣传等活动的机构或个人，学校保留依法追究其责任的权利。
+       </div>
+       <div>
+        第二十六条本章程自公布之日起生效，本章程若有与上级有关政策不一致之处，以上级有关政策为准。未尽事宜，按上级有关规定执行。以往学校有关招生工作的文件规定与本章程相悖之处，以本章程为主。
+       </div>
+       <div>
+        第二十七条本章程仅适用于本校2023年普通本专科招生工作，经学校授权由学校招生办公室负责解释。
+       </div>
+       <div>
+        第二十八条 新疆政法学院招生办公室工作地址及联系方式：
+       </div>
+       <div>
+        招生办公室工作地址：新疆政法学院科创楼
+       </div>
+       <div>
+        学校网站：http://www.xjzfu.edu.cn
+       </div>
+       <div>
+        联系电话：0998—5886222 0998-5886223
+       </div>
+       <div>
+        传真：0998-5886225
+       </div>
+       <div>
+        监督电话：0998-5886020
+       </div>
+       <div>
+        电子信箱：zsb@xjzfu.edu.cn
+       </div>
+      </div>
+      <div class="dede_pagess">
+       <ul class="pagelist"><!-- 百度TTS接口调用 -->
+        <div id="bdtts_div_id" style="display: none;">
+         <audio id="tts_audio_id" controls><source id="tts_source_id" src="" type="audio/mpeg">播放 <embed id="tts_embed_id" height="0" width="0" src="">
+         </audio>
+        </div>
+        <script>
+
+
+
+
+
+			</script>
+        <script>
+			var ttsTextI = 0;
+			var BoFangFlag = false;
+
+			function doTTS(){
+				if(!BoFangFlag){
+					BoFangFlag = true;
+					ttsTextI = 0;
+					toTTS();
+				}else{
+					BoFangFlag = false;
+					ttsAudio = document.getElementById("tts_audio_id");
+					ttsAudio.pause();//停止播放
+				}
+			}
+
+			function toTTS(){
+				if(ttsTextI < ttsTextSize){
+					var ttsDiv = document.getElementById('bdtts_div_id');
+					var ttsAudio = document.getElementById('tts_audio_id');
+
+					ttsDiv.removeChild(ttsAudio);
+					var au1 = '<audio id="tts_audio_id" autoplay="autoplay" controls>';
+					var sss = '<source id="tts_source_id" src="http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=6&text='+ encodeURI(encodeURI(ttsText[ttsTextI]))+'" type="audio/mpeg">';
+					var eee = '<emmbed id="tts_embed_id" height="0" width="0" src="">';
+					var au2 = '</audio>';
+
+					ttsTextI++;
+
+					ttsDiv.innerHTML = au1 + sss + eee + au2;
+					ttsAudio = document.getElementById("tts_audio_id");
+					ttsAudio.addEventListener('ended', function () {
+						toTTS();
+					}, false);
+					ttsAudio.play();//开始播放
+				}
+			}
+
+		</script>
+       </ul>
+      </div>
+      <div class="b_box6">
+       上一篇：<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2022/0311/21854.html">乌鲁木齐开放大学2022年春秋季招生简章</a> <br>
+       下一篇：<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28302.html">陆军军事交通学院2023年招收普通高中毕业生简章</a>
+      </div>
+      <div class="b_box7">
+       <p>相关文章：</p>
+       <ul class="box">
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28302.html">陆军军事交通学院2023年招收普通高中毕业生简章</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19941.html">新疆铁道职业技术学院2021年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19940.html">新疆职业大学2021年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19939.html">新疆现代职业技术学院2021年普通专科招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19938.html">新疆第二医学院2021年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19936.html">新疆能源职业技术学院2021年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19935.html">新疆维吾尔医学专科学校2021年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19934.html">新疆工程学院2021年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0224/18750.html">新疆工业职业技术学院2020年招生章程</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0224/18746.html">新疆科信职业技术学院2020年招生章程</a></li>
+       </ul>
+      </div>
+      <div class="b_box7">
+       <p>相关推荐：</p>
+       <ul class="box">
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28302.html">陆军军事交通学院2023年招收普通高中毕业生简章</a></li>
+        <li><em>[<a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/">新疆高校</a>]</em><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28301.html">新疆政法学院2023年普通本专科招生章程</a></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="right_1">
+     <div class="g_box2 u_2">
+      <div class="t_1">
+       栏目分类
+      </div>
+      <ul class="menu">
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/beijing/">北京高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/tianjin/">天津高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/hebei/">河北高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/shanxi/">山西高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/nmg/">内蒙古高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/liaoning/">辽宁高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/jilin/">吉林高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/hlj/">黑龙江高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/shanghai/">上海高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/zhejiang/">浙江高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/jiangxi/">江西高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/fujian/">福建高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/chongqing/">重庆高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/sichuan/">四川高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/guizhou/">贵州高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/yunnan/">云南高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xizang/">西藏高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/guangdong/">广东高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/guangxi/">广西高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/hainan/">海南高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/jiangsu/">江苏高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/anhui/">安徽高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/shandong/">山东高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/hunan/">湖南高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/hubei/">湖北高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/henan/">河南高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/shanx/">陕西高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/gansu/">甘肃高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/ningxia/">宁夏高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/qinghai/">青海高校</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/" class="on">新疆高校</a></li>
+      </ul>
+     </div><!-- 百度广告开始 -->
+     <div class="_7ch5qe4ntxd"></div>
+     <script type="text/javascript">
+    (window.slotbydup = window.slotbydup || []).push({
+        id: "u6011258",
+        container: "_7ch5qe4ntxd",
+        async: true
+    });
+</script><!-- 多条广告如下脚本只需引入一次 -->
+     <script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/cm.js" async defer>
+</script><!-- 百度广告结束 -->
+     <div class="g_box2 u_2">
+      <div class="t_1">
+       最新文章
+      </div>
+      <ul class="b_box3 u_1">
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28302.html">陆军军事交通学院2023年招收普通高中毕业</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28301.html">新疆政法学院2023年普通本专科招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2022/0311/21854.html">乌鲁木齐开放大学2022年春秋季招生简章</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2022/0311/21853.html">乌鲁木齐职业大学2022年成人招生简章</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2022/0220/21749.html">喀什大学2022年艺术类专业招生简章</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19941.html">新疆铁道职业技术学院2021年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19940.html">新疆职业大学2021年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19939.html">新疆现代职业技术学院2021年普通专科招生</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19938.html">新疆第二医学院2021年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2021/0615/19937.html">阿克苏职业技术学院2021年招生章程</a></li>
+      </ul>
+     </div>
+     <div class="g_box2 u_2">
+      <div class="t_1">
+       热门文章
+      </div>
+      <ul class="b_box1">
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28301.html">新疆政法学院2023年普通本专科招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2023/0612/28302.html">陆军军事交通学院2023年招收普通高中毕业</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0607/9541.html">新疆医科大学2019年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0607/9503.html">新疆交通职业技术学院2019年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0607/9507.html">新疆理工学院2019年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0607/9509.html">昌吉职业技术学院2019年普通高等学校招生</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0607/9521.html">石河子工程职业技术学院2019年招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0607/9528.html">新疆天山职业技术学院2019招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0303/7046.html">石河子大学2018年本专科招生章程</a></li>
+       <li><a href="http://www.gk114.com/a/gxzs/zszc/xinjiang/2019/0303/7036.html">新疆石河子职业技术学院2018年招生章程</a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="ban_1001"></div>
+   <div class="foot">
+    <p><a href="http://beian.miit.gov.cn/" target="_blank">网站备案号： 京ICP备09079197号-18</a>　　　　　　　<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ec1ba3b529582cc74d93b564c1ccef69";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></p>
+    <p><a href="http://www.beian.gov.cn/" target="_blank">中国招生考试网公安备案号：11011102000803</a></p>
+    <p>中国招生考试网合作咨询电话：<img src="http://www.gk114.com/skin/images/电话.gif" width="207" height="23" align="absmiddle">　邮箱：779069471#qq.com(请将#换成@)</p>
+    <p></p>
+   </div><a href="#0" class="cd-top">Top</a>
+  </div>
+ </body>
+</html>
